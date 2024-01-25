@@ -8,8 +8,9 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        sh 'echo passed'
-        //git branch: 'main', url: 'https://github.com/Jyothidk/Jenkins-to-Kubernetes.git'
+        // sh 'echo passed'
+        sh 'apt install git'
+        sh git branch: 'main', url: 'https://github.com/Jyothidk/Jenkins-to-Kubernetes.git'
       }
     }
     stage('Build and Test') {
