@@ -9,7 +9,7 @@ pipeline {
     stage('Checkout') {
       steps {
         sh 'echo passed'
-        // sh git branch: 'main', url: 'https://github.com/Jyothidk/Jenkins-to-Kubernetes.git'
+        // git branch: 'main', url: 'https://github.com/Jyothidk/Jenkins-to-Kubernetes.git'
       }
     }
     stage('Build and Test') {
