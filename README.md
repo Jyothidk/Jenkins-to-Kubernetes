@@ -232,6 +232,7 @@ Copy the encoded secret and decode it with below command and use it as password
 
 ``
 echo <encoded-secret> | base64 -d
+
 ``
 ![5](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/60f253be-eba2-4501-9319-61326b002630)
 
