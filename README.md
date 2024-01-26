@@ -9,8 +9,8 @@ Prerequisites:
 
    -  Java application code hosted on a Git repository
    -  Jenkins server
+   -  Sonarqube
    -  Kubernetes cluster
-   -  Docker
    -  Argo CD
 
 Steps:
