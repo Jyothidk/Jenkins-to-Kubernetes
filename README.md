@@ -87,9 +87,7 @@ Wait for the Jenkins to Install suggested plugins
 
 Create First Admin User or Skip the step [If you want to use this Jenkins instance for future use-cases as well, better to create admin user]
 
-<img width="990" alt="Screenshot 2023-02-01 at 11 02 09 AM" src="https://user-images.githubusercontent.com/43399466/215959757-403246c8-e739-4103-9265-6bdab418013e.png">
-
-Jenkins Installation is Successful. You can now starting using the Jenkins 
+Jenkins Installation is Successful. You can now start using the Jenkins 
 
 <img width="990" alt="Screenshot 2023-02-01 at 11 14 13 AM" src="https://user-images.githubusercontent.com/43399466/215961440-3f13f82b-61a2-4117-88bc-0da265a67fa7.png">
 
