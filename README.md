@@ -1,16 +1,25 @@
-# Jenkins-Zero-To-Hero
+# Jenkins Pipeline for Java based application using Maven, SonarQube, Docker, Argo CD and Kubernetes
 
-Are you looking forward to learn Jenkins right from Zero(installation) to Hero(Build end to end pipelines)? then you are at the right place. 
-
-## Installation on EC2 Instance
-
-YouTube Video ->
-https://www.youtube.com/watch?v=zZfhAXfBvVA&list=RDCMUCnnQ3ybuyFdzvgv2Ky5jnAA&index=1
+![Screenshot 2023-03-28 at 9 38 09 PM](https://user-images.githubusercontent.com/43399466/228301952-abc02ca2-9942-4a67-8293-f76647b6f9d8.png)
 
 
-![Screenshot 2023-02-01 at 5 46 14 PM](https://user-images.githubusercontent.com/43399466/216040281-6c8b89c3-8c22-4620-ad1c-8edd78eb31ae.png)
 
-Install Jenkins, configure Docker as agent, set up cicd, deploy applications to k8s and much more.
+Prerequisites:
+
+   -  Java application code hosted on a Git repository
+   -  Jenkins server
+   -  Sonarqube
+   -  Kubernetes cluster
+   -  Argo CD
+
+Tools Required:
+
+   -  Java, Git, Maven, Jenkins, Docker, SonarQube, Kubernetes Cluster, ArgoCD
+
+     ## Installation on EC2 Instance
+     
+Install Jenkins, configure Docker as agent, set up cicd, deploy applications to k8s 
+
 
 ## AWS EC2 Instance
 
