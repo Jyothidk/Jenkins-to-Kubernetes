@@ -243,8 +243,20 @@ Create Application
 ![6](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/f4e3d0fb-481e-4c2a-bc88-9e98c8191139)
 
 
+Now Build the Jenkins Job and wait for the build process to complete.
+Monitor the pipeline stages and fix any issues that arise.
 
+![jenkins-job-build-history](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/d0416fbe-d3dc-4776-9765-b8a5a1a6536d)
 
+Once the build is successful, go to the sonarqube server and check the projects results.
+
+![Sonarqube](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/57e687e4-ace0-48b5-8038-d6f79afea5b4)
+
+Now go to Docker Hub Repository and check for the pushed image
+
+![7](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/80c538c1-90a4-4cd3-b338-181fb91a56b7)
+
+Now go to Argo CD server, refresh the page and check deployments.
 
 ![Argocd](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/c66e92f3-4b55-43d6-9ff5-5a76e647bc1a)
 
