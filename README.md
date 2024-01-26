@@ -99,7 +99,9 @@ Jenkins Installation is Successful. You can now start using the Jenkins
    - Select the plugin and click the Install button.
    - Restart Jenkins after the plugin is installed.
    
-<img width="1392" alt="Screenshot 2023-02-01 at 12 17 02 PM" src="https://user-images.githubusercontent.com/43399466/215973898-7c366525-15db-4876-bd71-49522ecb267d.png">
+
+![pipeline-plugin](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/fe9cf02f-b16d-426f-861d-56137a24a5c8)
+
 
 Wait for the Jenkins to be restarted.
 
