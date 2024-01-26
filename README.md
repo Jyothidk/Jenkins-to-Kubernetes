@@ -98,7 +98,7 @@ Install the Required plugins in Jenkins
    - Go to Manage Jenkins > Manage Plugins.
    - In the Available tab, search for "Docker Pipeline", "SonarQube Scanner".
    - Select the plugins and click the Install button.
-   - Restart Jenkins after the plugin is installed. (http://<ec2-instance-public-ip-address>:8080/restart )
+   - Restart Jenkins after the plugin is installed. (`http://<ec2-instance-public-ip-address>:8080/restart` )
    
 
 ![pipeline-plugin](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/fe9cf02f-b16d-426f-861d-56137a24a5c8)
