@@ -5,6 +5,10 @@
 
 Here are the step-by-step details to set up an end-to-end Jenkins pipeline for a Java application using SonarQube, Docker, Argo CD, and Kubernetes:
 
+
+![jenkins-job-build-history](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/e0b4e2da-b7a3-4280-aecf-207f04a7f44b)
+
+
 Prerequisites:
 
    -  Java application code hosted on a Git repository
