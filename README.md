@@ -211,6 +211,33 @@ kubectl get svc -n argocd
 
 ![2](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/37203a7c-d0b6-4f0e-9c07-1730a805aee1)
 
+```
+minikube service list -n argocd
+minikube service argocd-server -n argocd
+```
+![3](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/6c155ad8-832b-4f68-9374-2daefe7e902e)
+
+As we are using Nodeport service we can access ArgoCD UI in browser
+Now copy the ip-address of "argocd-server" and paste it in the browser
+
+![4](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/39b616df-2630-4e04-854c-76e66f384515)
+
+Username is 'admin' and for password
+
+```
+kubectl get secret
+kubectl edit secret example-argocd-cluster
+```
+Copy the encoded secret and decode it with below command and use it as password
+
+``
+echo <encoded-secret> | base64 -d
+``
+![5](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/60f253be-eba2-4501-9319-61326b002630)
+
+
+
+
 
 
 
