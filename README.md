@@ -185,7 +185,6 @@ Install Minikube, kubectl tool as per below link
 
 https://www.linuxbuzz.com/install-minikube-on-ubuntu/
 
-
 ### Install and Configure ArgoCD
 
 https://argo-cd.readthedocs.io/en/stable/getting_started/
@@ -193,20 +192,22 @@ https://argo-cd.readthedocs.io/en/stable/getting_started/
 ```
    kubectl create namespace argocd
    kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
-
 ```
-
-
+```
 kubectl get pods -n argocd (wait until all pods starts running)
+```
 
 ![1](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/71712148-0c97-496c-a158-bdd2f6c8c1f4)
 
-
+```
 kubectl get svc -n argocd 
-
+```
 Once all the pods running, change the service type from "ClusterIP" to "Nodeport" for the SVC - "argocd-server" to access Argo CD UI
 
+```
 kubectl edit svc argocd-server -n argocd
+kubectl get svc -n argocd 
+```
 
 ![2](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/37203a7c-d0b6-4f0e-9c07-1730a805aee1)
 
