@@ -260,8 +260,13 @@ Now go to Argo CD server, refresh the page and check deployments.
 
 ![Argocd](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/c66e92f3-4b55-43d6-9ff5-5a76e647bc1a)
 
+Now to access the server within the network, open service.yml file under "java-maven-sonar-argocd-k8s/spring-boot-app-manifests/service.yml" and get the name - "spring-boot-app-service"
 
+![8](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/453d3413-8089-4951-8b89-c3061d4d73cb)
 
+Now copy the service URL into the browser
+
+![9](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/2bdfd0f0-d553-4167-bbe0-cbed3d852b47)
 
 
 
