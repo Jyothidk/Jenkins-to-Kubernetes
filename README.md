@@ -96,7 +96,7 @@ Install the Required plugins in Jenkins
 
    - Log in to Jenkins.
    - Go to Manage Jenkins > Manage Plugins.
-   - In the Available tab, search for "Docker Pipeline", "SonarQube Scanner".
+   - In the Available tab, search for ´Docker Pipeliner´, ´SonarQube Scanner´
    - Select the plugins and click the Install button.
    - Restart Jenkins after the plugin is installed. (`http://<ec2-instance-public-ip-address>:8080/restart` )
    
@@ -145,10 +145,38 @@ chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-9.4.0.54424
 cd sonarqube-9.4.0.54424/bin/linux-x86-64/
 ./sonar.sh start
 ```
+**Note: ** By default, SonarQube will not be accessible to the external world due to the inbound traffic restriction by AWS. Open port 9000 in the inbound traffic rules.
 
 Hurray !! Now you can access the `SonarQube Server` on `http://<ip-address>:9000` 
 
+After login at the right top corner click profile icon -> My Account -> Security, Under Generate Token give a name and click Generate and copy the Token.
+![Screenshot (202)](https://user-images.githubusercontent.com/129657174/230658495-a4ee14e9-df19-4bfa-8cec-0b9ccc3abb76.png)
 
+### Configuring Credentials on Jenkins
+
+For SonarQube
+
+   -  Go to Manage Jenkins > Manage Credentials > System > global > Add Credentials
+   -  Select Kind as Secret text
+   -  Copy the Sonarqube Token in Secret box and give name as sonarqube in ID
+   -  Click Save
+
+For Git
+
+   -  Now go to your GitHub Account > Settings > Developer Settings > Personal access tokens > Tokens(classic) > Generate new token (classic)
+   -  Give a name, Select all check boxes, Click Generate token and Copy the token for future use
+   -  Go to Manage Jenkins > Manage Credentials > System > global > Add Credentials
+   -  Select Kind as Secret text
+   -  Copy the Git Secret Token in Secret box and give name as github in ID
+   -  Click Save
+
+For DockerHub
+
+   -  Now go to [DockerHub](https://hub.docker.com/) create a user and create a new repository with name 'spring-boot-app'
+   -  Go to Manage Jenkins > Manage Credentials > System > global > Add Credentials
+   -  Select Kind as Username and Password
+   -  Give the username and password and give name as docker-cred in ID
+   -  Click Save
 
 
 
