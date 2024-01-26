@@ -16,7 +16,6 @@ Tools Required:
 
    -  Java, Git, Maven, Jenkins, Docker, SonarQube, Kubernetes Cluster, ArgoCD
 
-     ## Installation on EC2 Instance
      
 Install Jenkins, configure Docker as agent, set up cicd, deploy applications to k8s 
 
