@@ -238,8 +238,15 @@ echo <encoded-secret> | base64 -d
 ![5](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/60f253be-eba2-4501-9319-61326b002630)
 
 
+Create Application 
+
+![6](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/f4e3d0fb-481e-4c2a-bc88-9e98c8191139)
 
 
+
+
+
+![Argocd](https://github.com/Jyothidk/Jenkins-to-Kubernetes/assets/127189060/c66e92f3-4b55-43d6-9ff5-5a76e647bc1a)
 
 
 
