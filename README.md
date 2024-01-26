@@ -150,6 +150,7 @@ cd sonarqube-9.4.0.54424/bin/linux-x86-64/
 Hurray !! Now you can access the `SonarQube Server` on `http://<ip-address>:9000` 
 
 After login at the right top corner click profile icon -> My Account -> Security, Under Generate Token give a name and click Generate and copy the Token.
+
 ![Screenshot (202)](https://user-images.githubusercontent.com/129657174/230658495-a4ee14e9-df19-4bfa-8cec-0b9ccc3abb76.png)
 
 ### Configuring Credentials on Jenkins
@@ -177,6 +178,13 @@ For DockerHub
    -  Select Kind as Username and Password
    -  Give the username and password and give name as docker-cred in ID
    -  Click Save
+
+### Minikube Installation 
+
+Install and configure Minikube as per below link
+
+https://www.linuxbuzz.com/install-minikube-on-ubuntu/
+
 
 
 
